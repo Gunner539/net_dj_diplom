@@ -44,11 +44,13 @@
 
 ### Для запуска проекта необходимо:
 
-1. Установить зависимости:
+1. Установить настройки БД в файле [settings.py](./orders_api/orders/settings.py "вот тут")
+
+2. Установить зависимости:
 $ pip install -r requirements.txt
 
-2. Выполнить миграцию:
+3. Выполнить миграцию:
 $ python manage.py migrate
 
-3. Запустить приложение:
+4. Запустить приложение:
 $ python manage.py runserver
